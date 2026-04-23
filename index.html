@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MovanTech | Digital Agency</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body class="page">
+
+  <!-- NAVBAR -->
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="navbar__logo">MovanTech</h1>
+
+      <ul class="navbar__menu">
+        <li><a class="navbar__link" href="#">Home</a></li>
+        <li><a class="navbar__link" href="#">About</a></li>
+        <li><a class="navbar__link" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__content">
+      <h2 class="hero__title">Build Stunning Digital Experiences</h2>
+      <p class="hero__text">We create modern websites that grow your business</p>
+      <a href="#contact" class="hero__btn">Start Project</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services">
+    <h2 class="services__title">Our Services</h2>
+
+    <div class="services__grid">
+      <div class="card">
+        <img class="card__img" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"/>
+        <h3 class="card__title">Web Design</h3>
+        <p class="card__text">Creative UI/UX solutions</p>
+      </div>
+
+      <div class="card">
+        <img class="card__img" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"/>
+        <h3 class="card__title">Development</h3>
+        <p class="card__text">Fast & scalable apps</p>
+      </div>
+
+      <div class="card">
+        <img class="card__img" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"/>
+        <h3 class="card__title">SEO</h3>
+        <p class="card__text">Rank higher on Google</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2 class="contact__title">Contact Us</h2>
+
+    <form id="contactForm" class="contact__form">
+      <input class="contact__input" id="name" placeholder="Your Name" required/>
+      <input class="contact__input" id="email" placeholder="Your Email" required/>
+      <textarea class="contact__textarea" id="message" placeholder="Your Message"></textarea>
+
+      <button class="contact__btn">Send Message</button>
+      <p id="formMsg"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 MovanTech</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
